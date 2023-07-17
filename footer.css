@@ -1,0 +1,53 @@
+.footer{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(35, 33, 30);
+
+}
+.footer .container2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer .container2 .row{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.footer .container2 .left_side{
+    width: 20%;
+}
+.footer .container2 .left_side>a>img{
+    width: 120px;
+}
+.footer .container2 .left_side>p>a{
+    color: darkgoldenrod;
+    font-size: 13px;
+}
+.footer .container2 .left_side>:last-child{
+    font-size: 13px;
+    color: white;
+}
+.footer .container2 .centerright_side{
+    width: 80%;
+}
+.footer .container2 .link_footer{
+    padding: 0 5px 0 5px;
+    color: white;
+}
+.footer .container2 .link_footer>ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.footer .container2 .link_footer>ul>li{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.footer .container2 .link_footer>ul>li>a{
+    color: white;
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+}

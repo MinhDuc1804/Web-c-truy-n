@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+div.main{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5px;
+}
+div.content{
+    padding-left: 10px;
+    
+    width: 100%;
+    background-color: #ebebed;
+    padding-top: 10px;
+    display: flex;
+}
+div.center_side{
+    width: 69%;
+    margin-right: 2%;
+}
+div.right_side{
+    width: 29%;
+    background-color: white ;
+    margin-top: -10px;
+}
+ul.small-tab{
+    display: flex;
+    flex-direction: row;
+}
+ul.small-tab>li{
+    list-style-type: none;
+    padding-right: 5px;
+}
+ul.small-tab>li>a{
+    font-size: 13px;
+    padding-top: 10px;
+}
+div.content_main{
+    padding-top: 10px;
+    width: 100%;
+}
+div.content_main>h1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+p.title_content_main{
+    text-align: center;
+    color:  gray;
+}
+div.content_info{
+    padding-top: 10px;
+    display: flex;
+    color:gray;
+    width: 100%;
+}
+div.content_info>img{
+    width: 20%;
+    padding-right: 10px;
+}
+div.content_info_1{
+    width: 80%;
+    padding-left: 10px;
+}
+ul.list_info{
+    display: flex;
+    flex-direction: column;
+}
+ul.list_info>li{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+ul.list_info>li>:last-child{
+    padding-top: 2px;
+    width:70% ;
+}
+ul.list_info>li>:first-child{
+    width: 30%;
+}
+li.kind_row>:last-child>a{
+    color: blue;
+}
+.rank_row>a{
+    color: blue;
+}
+.follow>a{
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.read_action>a{
+    background-color: rgb(116, 116, 18);
+    margin-right:5px;
+    color: white;
+}
+
+div.summary>h3{
+    padding-top: 10px;
+    color: blue ;
+    border-bottom: 1px solid aqua;
+}
+div.summary>p{
+    padding-top: 10px;
+    color: black;
+    font-size: 15px;
+}
+div.summary>.morelink{
+    white-space: nowrap;
+    color: blue;
+    display: block;
+
+}
+#more {display: none;}
+
+div.summary>button{
+    /* display: none; */
+    color: blue;
+    background-color:white;
+    font-size: 14px;
+}
+div.list_chapter>h3{
+    padding-top: 10px;
+    color: blue ;
+    border-bottom: 1px solid blue;
+}
+div.row_heading{
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.row_heading>div.chapters{
+    width: 50%;
+}
+div.row_heading>div.update{
+    width: 25%;
+}
+div.row_heading>div.views{
+    width: 25%;
+}
+div.chapters_number{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div.chapters_number>ul>li.row{
+    display: flex;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px dashed black;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-size: 14px;
+}
+li.row>div.chapter{
+    text-decoration: none;
+    width: 50%;
+}
+li.row>div.chapter>a{
+    color: black;
+}
+li.row>div.time_line{
+    width: 25%;
+    color: grey;
+}
+li.row>div.status{
+    width: 25%;
+    color: grey;
+}
+
+ul.tab_main_chat{
+    display: flex;
+    list-style-type: none;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+    margin-right: 5px;
+}
+ul.tab_main_chat>li{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    background-color: gray;
+}
+li.chat_net>a{
+    color: black;
+    opacity: 0.5;
+    font-size: 14px;
+}
+li.chat_fb>a{
+    color: black;
+    opacity: 0.5;
+    padding-top: 2px;
+    font-size: 14px;
+}
+div.tab_chat_net_tr{
+    display: flex;
+    color: black;
+    padding-top: 10px;
+    font-size: 14px;
+}
+div.tab_chat_net_tr>span>a{
+    color: blue;
+}
+div.tab_chat_net_tr>a{
+    padding-left: 5px;
+}
+div.chat_for_you{
+    padding-top: 10px;
+    width: 100%;
+}
+div.chat_for_you>input{
+    width:100% ;
+    height: 50px;
+}
+div.comment_list{
+    padding-top: 20px;
+}
+div.item_comment{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+div.item_comment>div.image{
+    width: 5%;
+    padding-right: 5px;
+}
+div.item_comment>div.image>img{
+    width: 100%;
+}
+div.content_comment{
+    width: 95%;
+    
+}
+div.info_comment{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border: 1px solid #ebebed;
+}
+div.comment_header{
+    border-bottom: 1px solid black;
+    padding:5px 0px 5px 0;
+}
+div.comment_header>:first-child{
+    color: rgb(0, 255, 47);
+    font-weight: bold;
+    padding-right: 10px;
+}
+div.comment_header>:last-child{
+    color: blue;
+    font-size: 10px;
+    font-style: italic;
+}
+div.comment_content{
+    padding: 5px 0 5px 0;
+    color: black;
+}
+ul.comment_footer{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    padding-top: 5px;
+}
+ul.comment_footer>li>span>a{
+    color: blue;
+    font-size: 12px;
+    width: 100%;
+}
+ul.comment_footer>li{
+    padding-right: 10px;
+}
+ul.comment_footer>li>span>a>img{
+    width: 100%;
+    height: 20px;
+    width: 20px;
+}
+ul.comment_footer>li>span.time_comment{
+    color: gray;
+    font-size: 12px;
+}
+.right_side {
+    width: 25%;
+    margin-left: 2%;
+    padding: 3%;
+}
+
+.rs_follow {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-bottom: 5%;
+    padding-bottom: 4%;
+}
+
+.thietbi {
+    padding-bottom: 5px;
+    border-bottom: 2px yellowgreen solid;
+}
+
+.rs_follow p {
+    color: #2980b9;
+    margin: 5%;
+    font-size: large;
+}
+
+.rs_follow span {
+    margin-left: 5%;
+}
+
+.rank_tabs_nav {
+    display: flex;
+    border-bottom: 0px;
+    padding: 10px 0;
+}
+
+.rank_tabs_nav li {
+    width: 33%;
+    list-style-type: none;
+    padding: 2%;
+    text-align: center;
+}
+
+.top_comic {
+    width: 100%;
+    border-top: 0px;
+    padding-left: 1px;
+}
+
+.top1_comic {
+    display: flex;
+    width: 100%;
+    padding: 4%;
+}
+
+.month {
+    height: 100%;
+    border-top: 3px solid purple;
+}
+
+.week {
+    background-color: lightgray;
+}
+
+.day {
+    background-color: lightgray;
+}
+
+.top1_comic a {
+    text-decoration: none;
+    color: black;
+}
+
+.top1_comic img {
+    width: 54px;
+    height: 46px;
+    margin: 4%;
+}
+
+.top1_comic span {
+    margin-right: 3%;
+    font-size: large;
+}
+
+.comic_content {
+    margin-left: 3%;
+}
+
+.comic_content_title {
+    margin-bottom: 10%;
+}
+
+.top_month {
+    border: 1px solid #ebebeb;
+    padding-left: 2%;
+}
+.footer{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(35, 33, 30);
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.row{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+div.left_side{
+    width: 20%;
+}
+div.left_side>a>img{
+    width: 120px;
+}
+div.left_side>p>a{
+    color: darkgoldenrod;
+    font-size: 13px;
+}
+div.left_side>:last-child{
+    font-size: 13px;
+    color: white;
+}
+div.centerright_side{
+    width: 80%;
+}
+div.link_footer{
+    padding: 0 5px 0 5px;
+    color: white;
+}
+div.link_footer>ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+div.link_footer>ul>li{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+div.link_footer>ul>li>a{
+    color: white;
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+}

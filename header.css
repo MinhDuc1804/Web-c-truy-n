@@ -1,0 +1,94 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 ;
+    margin: 0 ;
+}
+.header{
+    width: 100%;
+    height: 89px;
+    background: url(https://hinhanhdephd.com/wp-content/uploads/2020/07/hinh-nen-galaxy-wallpaper-fullhd-dep-nhat-1.jpg);  
+}
+.headone{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+}
+
+.headone input{
+    width: 50%;
+    height: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header .user{
+    margin-left: 5%;
+    position: relative;
+}
+
+.header .headone .lamp{
+    
+   font-size: 25px;
+    color: white;
+}
+.dark-mode {
+    background-color: black;
+    z-index: 50;
+    color: white;
+}
+
+.headone .user .from-user{
+    background-color: aliceblue;
+    position: absolute;
+    transition: all 0.9s;
+    transform: scaleY(0.0);
+    width: 140px;
+    margin-left: 50px;
+    text-decoration: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.from-user li a{
+    font-size: 15px;
+    color: black;
+}
+
+.headone .user:hover .from-user{
+    transform: scaleY(1.0);
+}
+
+.headtwo{
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    background-color: rgb(199, 199, 199);
+}
+
+.headtwo-btn{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headtwo-btn ul {
+    display: flex;
+}
+.headtwo-btn ul li {
+    width: 9%;text-align: center;
+    padding: 10px;
+    height: 20px; 
+    position: relative;
+
+}
+.headtwo-btn ul li a{
+    color: black;
+    font-size: 15px;
+}
+.header .headtwo-btn ul li:hover{
+    background-color: white;
+}
+.header .headtwo-btn ul li a:hover {
+    color:#CC6600 ;
+}
+
