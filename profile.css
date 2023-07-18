@@ -1,0 +1,484 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 ;
+}
+
+/* body {
+    background-color:rgb(221, 221, 221) ;
+} */
+.profile{
+   top: 5px;
+   position: relative;
+    /* padding-top:10px ; */
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    background:white;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+}
+.menu-profile{
+    width: 25%;
+    margin-right: 3%;
+}
+.show-profile{
+    width: 72%;
+}
+.show-menu1{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.menu-user{
+    width: 100%;
+    height: 10%;
+    background: black;display: flex;
+    margin-bottom:20px ;
+}
+
+.menu-user img{
+    width: 30%;
+    padding: 10px;
+    
+}
+.title-name{
+    margin: 15px 10px 10px 5px ;
+    color: white;
+}
+.menu-user .on-list{
+    margin-top:20px ;
+
+    color: white;
+    font-size: 30px;
+}
+.menu-list{
+    background-color: rgb(220, 217, 217);
+    border:1px solid rgb(205, 198, 198); ;
+    
+    
+}
+
+.menu-list ul li{
+  padding-top:10px ;
+  padding-bottom: 10px;
+  padding-left:50px ;
+}
+
+
+/* thong tin chung */
+thong{
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 7px;
+    /* border-left: 3px solid red; */
+    border-bottom: 3px solid red;
+}
+.thongtin-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 3px solid red;
+    width: 50%;
+ display: flex;
+ justify-content: space-between;
+}
+.thongtin-title ta{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+
+.show-rank{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    /* padding: 15px; */
+}
+span{
+    justify-content:space-between;
+    display: flex;
+    /* margin-left:15px ;
+    margin-right: 15px; */
+}
+.rank-level{
+    height: 10px;
+    width: 99%;
+    background-color:rgb(143, 140, 140);
+    border-radius:4px ;
+    margin-bottom: 10px;
+}
+
+.show-rank-last {
+    margin: 20px;
+}
+
+.show-rank ul li{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.show-rank ul li i{
+        padding-bottom: 10px;
+        width: 100px;
+        /* background-color: yellow; */
+}
+.show-rank ul li hi{
+    color: red;
+    padding-right:5px ;
+}
+
+
+/* /////// */
+
+.stoy-follow{
+    /* background-color: rgb(219, 219, 219); */
+    margin-bottom: 25px;
+    
+}
+
+.stoy-follow .title-follow{
+    display: flex;
+    justify-content: space-between;
+    border-left:3px solid red ;
+    margin-bottom: 20px;
+}
+.stoy-follow .title-follow ta{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.stoy-follow .table-follow{
+    background-color: black;
+    
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+.stoy-follow .table-follow li{
+    color: aliceblue;
+    font-weight: 900;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/* phan menu-list1  */
+.show-menu2{
+    width: 100%;
+    
+ 
+    display: none;
+}
+.show-menu3{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}
+.show-menu3{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}
+.show-menu4{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}
+.show-menu5{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}.show-menu6{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}
+.show-menu7{
+    width: 100%;
+    /* background-color: red; */
+
+    display: none;
+}
+
+/* phan  show-menu2  */
+.title-user ta{
+    font-size: 20px;
+    font-weight: 900;
+}
+.title-user li{
+    width: 75px;
+    height: 3px;
+    margin-top:7px ;
+    background-color: red;
+    
+}
+.title-userd {
+    margin-top: 20px;
+    border-left: 3px solid red ;
+  
+    padding-left: 10px; 
+}
+
+.title-userd p{
+    font-size: 20px;
+}
+.table-user {
+    display: flex;
+}
+
+.table-title{
+    width: 65%;
+}
+
+.table-avatar{
+    width: 30%;
+}
+
+ .table-title li{
+    display: flex;
+ }  
+
+ .table-title-test input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: rgb(203, 203, 203);
+    background-color: #eee;
+ }
+
+ .table-title-test1 input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: rgb(203, 203, 203);
+    background-color: white;
+ }
+
+ .table-title-test2 select{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: rgb(203, 203, 203);
+    background-color: white;
+ }
+
+.table-title div{
+    margin-top: 20px;
+}
+.table-title button{
+    margin-top: 20px;
+    background-color:#2e6da4 ;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #2e6da4;
+}
+
+/* /////////// */
+.table-avatar{
+    margin-left: 5%;
+}
+.table-avatar te 
+{
+    width: 100%;
+
+}
+.table-avatar div{
+    height: 50px;
+    display: flex;
+}
+.table-avatar div img{
+    width: 50px;
+    height: 100%;
+}
+.table-avatar div button{
+    background-color: #d9534f;
+    width: 100px;
+    height: 80%;
+    border-color: #d43f3a;
+    border-radius: 10px;
+    color: white;
+  margin: 5px;
+    
+}
+.table-avatar p{
+    font-size: 13px;
+
+}
+.table-avatar pi{
+    font-size: 13px;
+    color: red;
+
+}
+/* phân .show-menu3 */
+
+
+/* phân .show-menu4 */
+
+/* .show-menu4{
+    padding-bottom: 20px;
+} */
+.show-menu4 input{
+    width: 100%;
+    height: 100px;
+    border-radius: 7px;
+    border-color: #d1d1d1;
+    background-color: white;
+    border-color: aliceblue;
+}
+
+.show-menu4 button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f0ad4e;
+    border-color:#eea236;
+    height: 32px;
+    width: 30%;
+    color: white;
+    border-radius: 7px;
+}
+
+.title-show4 te{
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
+.title-last{
+   width: 80px;
+   height: 3px;
+   background-color: red; 
+}
+.new-test{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 20px;
+    border-top: 2px solid red;
+    padding: 10px;
+}
+.new-test li{}
+
+/* phan  show-menu5  */
+
+.title-bottle5 te{
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
+.title-last5{
+   width: 80px;
+   height: 3px;
+   background-color: red; 
+}
+.new-bottle{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 20px;
+    border-top: 2px solid red;
+    padding: 10px;
+}
+
+/* phan  show-menu6  */
+.title-chat te{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.key-chat{
+    width: 80px;
+    height: 3px;
+    background-color: red;
+}
+.show-menu6 .table-chat{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content:space-around; */
+    background-color: black;
+    border-top:2px solid red;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.show-menu6 .table-chat-one{
+    width: 74%;
+    margin-left: 5%;
+}
+.title-list-chat li{
+    display: flex;
+    padding: 5px;
+    border-bottom:1px solid rgb(204, 204, 204);
+}
+
+.title-list-chat li p{
+    margin: 5px;
+}
+.title-list-chat li p ti{
+    font-weight: 900;
+    font-size: 15px;
+}
+.title-list-chat li i{
+    margin: 5px;
+}
+.title-list-chat li a{
+    margin: 5px;
+}
+/* phan  show-menu7  */
+.show-menu7{
+    width: 100%;
+    
+ 
+    display: none;
+}
+.title-pass li{
+    width: 75px;
+    height: 3px;
+    background-color: red;
+}
+.title-pass ta{
+    font-size: 25px;
+    font-weight: 900;
+}
+.table-pass .table-pass-text{
+    margin-top: 30px;
+}
+.table-pass .table-pass-text input{
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+   
+}
+.table-pass .table-pass-text te{
+    padding-bottom: 10px;
+}
+.show-menu7 button{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #337ab7;
+    border-radius: 10px;
+    border-color: #2e6da4;
+}
