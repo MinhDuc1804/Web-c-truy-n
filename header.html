@@ -1,43 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+
+<head >   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="header.css">
-    <script  src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" > 
-    </script>
+    <title>index</title> 
+    <link rel="stylesheet" type = "text/css" href="header.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
     <div class="header">
 
         <div class="headone">
-            <a href=""><img src ="https://nettruyenco.vn/public/assets/images/logo-nettruyen.png"></a>
-           
-            <input type="text" placeholder="Tìm truyên. .....">
-            <li><a href="login.html" style="font-size: 20px;color: white;">Đăng nhập</a></li>
+            <a href="index.html"><img src ="https://nettruyenco.vn/public/assets/images/logo-nettruyen.png"></a>
+                <input type="text" placeholder="Tìm truyên. .....">
+            <li class="lamp" onclick="myFunction()"><ion-icon name="contrast"></ion-icon></li>
+
+
+            <li class="testchat"><ion-icon name="chatboxes"></ion-icon>
+            </li>
+            
+
+            
             <li class="user" ><a href=""style="font-size: 20px;color:white"><ion-icon name="person"></ion-icon>Cá nhân</a>
+               
+               
                 <ul class="from-user">
-                    <li><a href=""><ion-icon name="person"></ion-icon>Trang cá nhân</a></li>
+                    <li><a href="profile.html"><ion-icon name="person"></ion-icon>Trang cá nhân </a></li>
                     <li><a href=""><ion-icon name="bookmarks"></ion-icon>Truyện theo dõi</a></li>
                     <li><a href="home.html"><ion-icon name="log-out"></ion-icon>Thoát</a></li>
-               </ul>  
+
+               </ul>
+                
+
             </li>
+           
+
         </div>
+
+
+        
         <div class="headtwo" id="myHeader" >
 
             <div class="headtwo-btn">  
                     <ul>
-                        <li><a href=""><ion-icon name="home"></ion-icon></a></li>
+                        <li><a href="index.html"><ion-icon name="home"></ion-icon></a></li>
                         <li><a href="">HOT</a></li>
                         <li><a href="">THEO DÕI</a></li>
-                        <li><a href="">LỊCH SỬ </a></li>
-                        <li><a href="read.html">THỂ LOẠI</a></li>
-                        <li><a href="">XẾP HẠNG </a></li>
+                         <li><a href="histroy.html">LỊCH SỬ </a></li>
+
+                        <li><a href="theloai.html">THỂ LOẠI</a>
+
+                            <ul class="from-theloai">
+                                    <div class="theloai">
+                                        <li><a href="" class="theloai-a">Tất Cả</a></li>
+                                        <li><a href="">Action</a></li>
+                                        <li><a href="">Adult</a></li>
+                                        <li><a href="">Adventure</a></li>
+                                        <li><a href="">Anime</a></li>
+                                        <li><a href="">Chuyển sinh</a></li>
+                                        <li><a href="">Comedy</a></li>
+                                        <li><a href="">Comic</a></li>
+                                        <li><a href="">Cooking</a></li>
+                                        <li><a href=""class="theloai-a" >Cổ Đại </a></li>
+                                        <li><a href="">Doujinshi</a></li>
+                                        <li><a href="">Drama</a></li>
+                                        <li ><a href="" class="theloai-a">Đam Mỹ </a></li>
+                                    
+
+
+                                    </div>
+
+                                    <div class="theloai">
+                                        <li><a href="">Ecchi</a></li>
+                                        <li><a href="">Fantasy</a></li>
+                                        <li><a href="">Gender Bender </a></li>
+                                        <li><a href="">Harem</a></li>
+                                        <li><a href="">Historical</a></li>
+                                        <li><a href="">Horror</a></li>
+                                        <li><a href="">Josei</a></li> 
+                                        <li><a href="">Live action</a></li>
+                                        <li><a href="">Manga</a></li>
+                                        <li><a href=""class="theloai-a">Manhua</a></li>                                        
+                                        <li><a href="">Manhwa</a></li>                                                                
+                                        <li><a href="">Martial</a></li>
+                                        <li ><a href="" >Mature</a></li>                                                           
+                                    </div>
+                                
+                                
+                                    <div class="theloai">
+
+                                        <li><a href="">Mecha</a></li>
+                                        <li><a href="">Mystery</a></li>
+                                        <li><a href=""class="theloai-a">Ngôn Tình</a></li>
+                                        <li><a href="">One Shot</a></li>
+                                        <li><a href="">Pyschological</a></li>
+                                        <li><a href=""class="theloai-a">Romance</a></li>
+                                        <li><a href="">School Life</a></li>
+                                        <li><a href="">Sci-fi</a></li>
+                                        <li><a href="">Seinen</a></li>
+                                        <li><a href="">Shoujo</a></li>
+                                        <li><a href="" >Shoujo Ai </a></li>
+                                     
+                                        <li><a href="">Shounen</a></li>
+                                        <li ><a href="" >Shounen Ai</a></li>
+                                    </div> 
+
+
+
+                                    <div class="theloai">
+
+                                        <li><a href="">Slice of Life</a></li>
+                                        <li><a href="">Smut</a></li>
+                                        <li><a href="">Soft Yaoi</a></li>
+                                        <li><a href="">Soft Yuri</a></li>
+                                        <li><a href="">Sports</a></li>
+                                        <li><a href="">Supernatural</a></li>
+                                        <li><a href="">Thiếu Nhi</a></li>
+                                        <li><a href="">Tragedy</a></li>
+                                        <li><a href="">Trinh Thám</a></li>
+                                        <li><a href="">Truyện scan</a></li>
+                                        <li><a href="" >Truyên Màu </a></li>
+                                        <li><a href="">Webtoon</a></li>
+                                        <li ><a href="" class="theloai-a">Xuyên Không</a></li>
+                                    </div>
+
+                                
+                             
+                                
+                            </ul>
+                        
+                        </li>
+
+                        <li><a href="">XẾP HẠNG </a>
+
+                            <ul class="from-xephang">
+                                <div class="xephang">
+                                 <li><a href=""><ion-icon name="eye"></ion-icon>Top ALL</a></li>
+                                <li><a href=""><ion-icon name="eye"></ion-icon>Top Tháng</a></li>
+                                <li><a href=""><ion-icon name="eye"></ion-icon>Top Tuần </a></li>
+                                <li><a href=""><ion-icon name="eye"></ion-icon>Top Ngày  </a></li>
+                                </div>
+                                <div class="xephang">
+                                <li><a href=""><ion-icon name="stats"></ion-icon>Truyện FULl</a></li>
+                                <li><a href=""><ion-icon name="heart"></ion-icon>Yêu Thích</a></li>
+                                <li><a href=""><ion-icon name="refresh"></ion-icon>Mới Cập Nhật</a></li>
+                                <li><a href=""><ion-icon name="cloud-download"></ion-icon>Truyện Mới</a></li>
+                                </div> 
+                             </ul>
+                            
+                        </li>
                         <li><a href="">TÌM TRUYỆN</a></li>
                     </ul>
+
             </div>
         </div>
+
+
     </div>
+  
+
+    <div class="chat-thongbao">
+        <div class="chat55"><hp>Thông  Báo</hp></div>
+        
+            <div class="traloi">
+                <ul>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhlPE0gXGOoAq3qU3GHKSS2Ih3VQDLzZ6GQ&usqp=CAU" alt="">
+                        <pho><a href="">Đặng phong</a><pk> đã trả lời bình luận của bạn trong truyện</pk> <a href="">Võ Luyện Đỉnh Phong</a><br><pk>28 days ago</pk></pho>
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhlPE0gXGOoAq3qU3GHKSS2Ih3VQDLzZ6GQ&usqp=CAU" alt="">
+                        <pho><a href="">Đặng phong</a><pk> đã trả lời bình luận của bạn trong truyện</pk> <a href="">Võ Luyện Đỉnh Phong</a><br><pk>28 days ago</pk></pho>
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhlPE0gXGOoAq3qU3GHKSS2Ih3VQDLzZ6GQ&usqp=CAU" alt="">
+                        <pho><a href="">Đặng phong</a><pk> đã trả lời bình luận của bạn trong truyện</pk> <a href="">Võ Luyện Đỉnh Phong</a><br><pk>28 days ago</pk></pho>
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhlPE0gXGOoAq3qU3GHKSS2Ih3VQDLzZ6GQ&usqp=CAU" alt="">
+                        <pho><a href="">Đặng phong</a><pk> đã trả lời bình luận của bạn trong truyện</pk> <a href="">Võ Luyện Đỉnh Phong</a><br><pk>28 days ago</pk></pho>
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhlPE0gXGOoAq3qU3GHKSS2Ih3VQDLzZ6GQ&usqp=CAU" alt="">
+                        <pho><a href="">Đặng phong</a><pk> đã trả lời bình luận của bạn trong truyện</pk> <a href="">Võ Luyện Đỉnh Phong</a><br><pk>28 days ago</pk></pho>
+                    </li>
+                </ul>
+            </div>
+    
+
+
+    </div>
+
+
 </body>
+<script src="./main.js"></script>
+  
 </html>
