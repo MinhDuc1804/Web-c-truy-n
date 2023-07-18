@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.right_side{
+    margin-top: 15px;
+}
+.follow{
+    width: 95%;
+    margin: 0 auto; 
+    border: 1px solid #ddd;
+   
+}
+
+.follow p {
+    color: blue;
+    font-size: larger;
+}
+
+.rank_tabs_nav {
+    display: flex;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+ 
+}
+
+.rank_tabs_nav li {
+    width: 33%;
+    list-style-type: none;
+    padding: 2%;
+}
+
+.top_comic {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+.comic {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.rank {
+    font-size: larger;
+}
+
+.month {
+    height: 100%;
+    border-top: 1px solid purple;
+}
+
+.week {
+    background-color: lightgray;
+}
+
+.day {
+    background-color: lightgray;
+}
+
+.comic a {
+    text-decoration: none;
+    color: black;
+}
+
+.comic img {
+    width: 90px;
+    height: 80px;
+    margin: 4%;
+}
+
+.comic span {
+    margin-right: 3%;
+}
+
+.comic_content {
+    margin-left: 3%;
+}
+
+.comic_content_title {
+    margin-bottom: 10%;
+}

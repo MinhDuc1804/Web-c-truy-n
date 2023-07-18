@@ -1,0 +1,104 @@
+/* .main{
+    width: 1000px;
+} */
+
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+.main{
+    background-color: rgb(221, 221, 231);
+}
+.container{
+    /* position: absolute; */
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 80%;
+    /* padding-top: 10px; */
+    margin: 0 auto;
+    height: 1850px;
+}
+
+.slick{
+    width:100%;
+    height: 13%;
+    
+    /* background-color: blueviolet;    */
+
+}
+.row{
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+}
+.row .row-left{
+    width: 70%;
+    height: 100%;
+    margin-left: 10px;
+    /* background-color: blue; */
+
+}
+
+.row .row-right{
+    width: 30%;
+    height: 100%;
+  
+    /* background-color: orange; */
+}
+
+.row-right-top{
+    height: 20%;
+    width: 100%;  padding-bottom:5% ;
+    
+    /* background-color: pink; */
+
+}
+
+.row-right-center{
+    height: 25%;
+}
+
+.row-right-bottom{
+    height: 25%;
+}
+
+
+/* .footer {
+    width: 100%;
+    height: 500px;
+} */
+
+/* @media screen and (max-width:80%){
+
+    .container{
+        background-color: green;
+    
+        margin: 0 auto;
+        height: 800px;
+    }
+    .view{
+        width:100%;
+        height: 20%;
+        background-color: blueviolet;   
+    
+    }
+    .row{
+        width: 100%;
+        height: 80%;
+      
+    
+    }
+    .row .row-left{
+        width: 100%;
+        height: 50%;
+        background-color: blue;
+    
+    }
+    
+    .row .row-right{
+        width: 100%;
+        height: 50%;
+        background-color: orange;
+    }
+} */

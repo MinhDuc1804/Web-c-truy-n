@@ -1,0 +1,107 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.menutad{
+    width: 100%;
+    height: 100%;
+
+}
+
+.tieude{
+    display: flex;
+    justify-content:space-between;
+    height: 3%;
+    
+    }
+
+.tieude li a{
+  color: rgb(18, 166, 207);
+    font-size: 25px;
+}
+
+
+
+.dsfromtruyen{
+    width: 100%;
+    height: 94%;
+}
+.fromtruyen1{
+    width: 100%;
+    height: 100%;
+}
+
+.fromtruyen2{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.fromtruyen3{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.dstruyen{
+    width: 100%;
+    display: flex;
+    height: 25%;
+    
+}
+
+.truyen{
+    width: 23%;
+    margin-right: 2%;
+    height: 100%;
+}
+
+.truyen img{
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.truyen li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.truyen a{
+    font-size :18px; ;
+    color: black;
+}
+.truyen i{
+    color: rgb(120, 120, 120);
+}
+
+.nut ul{
+        display: flex;
+        height: 3%;
+        width: 80%;
+        margin: 0 auto;
+         margin-top: 40px;
+        margin-left: 190px;
+}
+
+
+.nut ul li{
+   
+}
+.nut ul li{
+  
+   
+    width: 30px;
+    height: 25px;
+    color: azure;
+     border:1px solid wheat;
+      text-align: center;
+      padding-top: 8px;
+      margin-right: 10px;
+      border-radius: 18px;
+  
+     background-color: #ddd;
+}
