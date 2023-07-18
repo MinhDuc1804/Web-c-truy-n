@@ -1,0 +1,292 @@
+
+*{
+   
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+
+
+
+.header{
+    
+    width: 100%;
+    height: 90px;
+    flex-direction: row;
+    background: url(https://hinhanhdephd.com/wp-content/uploads/2020/07/hinh-nen-galaxy-wallpaper-fullhd-dep-nhat-1.jpg);
+   
+}
+
+.headone{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    
+
+}
+
+.headone input{
+    width: 50%;
+    height: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header .ten{
+    list-style-type: none;
+    width:20%;
+    background: url(//st.nettruyenon.com/data/logos/logo-nettruyen.png);
+    
+}
+
+.header .user{
+    margin-left: 5%;
+    position: relative;
+}
+
+.header .headone .lamp{
+    
+   font-size: 25px;
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    z-index: 50;
+    color: white;
+ 
+    
+   
+  }
+
+.header .headone .testchat {
+    position:relative; 
+    color: white;
+    font-size: 25px;
+}
+
+.chat-thongbao {
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 340px;
+    margin-left:700px ;
+    margin-top: -35px;
+    z-index: 1;
+   
+
+
+}
+.chat-thongbao .chat55{
+    height: 9%;
+    width: 100%; color: blue;
+   font-size: 15px; 
+   background-color: white;
+       text-align: center;
+       align-items: center;
+       padding-top:8px;
+
+}
+
+
+.chat-thongbao .traloi{
+    height: 90%;
+    width: 100%;
+}
+.chat-thongbao .traloi ul{
+    height: 100%;
+}
+.chat-thongbao .traloi ul li {
+    height: 18%;
+    display:flex ;
+    background-color: rgb(204, 202, 202);
+    margin:1px ;
+    padding: 4px;
+    color: black;
+}
+
+.chat-thongbao .traloi ul li img{
+    height: 80%;
+    width: 20%;
+    padding: 4px;
+    
+}
+
+
+.chat-thongbao .traloi ul li p1{
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.chat-thongbao .traloi ul li a{
+
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.chat-thongbao .traloi ul li pk{
+    font-size: 11px;
+} 
+
+.chat-thongbao .traloi ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.headone .user .from-user{
+    background-color: aliceblue;
+    position: absolute;
+    transition: all 0.9s;
+    transform: scaleY(0.0);
+    width: 140px;
+    margin-left: 50px;
+    text-decoration: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.from-user li a{
+    font-size: 15px;
+    color: black;
+}
+
+.headone .user:hover .from-user{
+    transform: scaleY(1.0);
+
+}
+
+
+
+.headtwo{
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    background-color: rgb(199, 199, 199);
+}
+
+.headtwo-btn{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headtwo-btn ul {
+    display: flex;
+  
+}
+.headtwo-btn ul li {
+    
+    width: 9%;text-align: center;
+    padding: 10px;
+    height: 20px; 
+    position: relative;
+
+}
+.headtwo-btn ul li a{
+    color: black;
+    font-size: 15px;
+    
+    
+}
+
+.headtwo-btn ul li ul{
+    position: absolute;
+    transition: all 0.4s;
+    transform-origin:top;
+    transform: scaleY(0.0);
+}
+
+.headtwo .headtwo-btn ul li:hover{
+    background-color: white;
+}
+.headtwo .headtwo-btn ul li a:hover{
+    color: purple;
+}
+
+.headtwo-btn ul li:hover ul{
+    transform: scaleY(1.0);
+}
+
+.headtwo-btn ul li ul .xephang li:hover{
+    background-color: rgb(247, 247, 247);
+ 
+}
+.headtwo-btn ul li ul .theloai li:hover{
+    background-color: rgb(247, 247, 247);
+ 
+}
+.headtwo-btn ul li ul .xephang li a:hover{
+   
+    color:red;
+}
+.headtwo-btn ul li ul .theloai li a:hover{
+   
+    color:red;
+}
+
+
+
+
+.from-theloai{
+    width: 500px;
+    z-index: 1;
+    background-color:aliceblue;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.from-theloai .theloai{
+    width: 25%;
+    border-radius: 10px;    
+}
+.from-theloai .theloai li {
+    
+    width: 82%;
+    border-radius: 10px;
+
+}
+
+.from-theloai .theloai .theloai-a{
+    color: red;
+    font-weight: 700;
+}
+
+.from-xephang{  
+    z-index: 1;
+    display: flex;
+    margin-top: 10px;
+    width: 280px;
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.xephang{
+
+   
+} 
+.from-xephang .xephang li{
+    list-style-type: none;
+    width: 120px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.header .headone .lamp{
+    position: relative;
+}
+.header .headone .lamp .body:active {
+    background-color: black;
+   
+}
